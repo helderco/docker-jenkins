@@ -1,6 +1,4 @@
-# https://github.com/jenkinsci/docker/
-# https://hub.docker.com/r/jenkinsci/jenkins/tags/
-FROM jenkinsci/jenkins:2.0-beta-2
+FROM jenkins:2.60.1
 
 USER root
 
