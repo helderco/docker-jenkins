@@ -5,7 +5,7 @@ USER root
 RUN apt-get update && \
     apt-get install --no-install-recommends -y \
         patch rsync \
-        ca-certificates mysql-client libmysqlclient-dev gcc gettext && \
+        ca-certificates mysql-client gcc gettext && \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/*
 
